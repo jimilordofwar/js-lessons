@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 2: Forms</title>
+</head>
+<body>
+  <h1>Forms</h1>
+  <p>Forms allow users to insert their own data and you can do whatever you want with what they enter!</p>
+
+  <form onSubmit="submitForm(event)">
+    <label>First Name</label>
+    <input type="text" name="firstName" id="firstName">
+    <label>Last Name</label>
+    <input type="text" name="lastName" id="lastName">
+    <button type="submit">Submit</button>
+  </form>
+
+  <h2 id="output">My Name is </h2>
+</body>
+<script src="index.js"></script>
+</html>
